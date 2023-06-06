@@ -3,7 +3,7 @@ name: 'C++'
 on:
   push:
     branches:
-      - main
+      - master
       - feature/github_actions
 
 jobs:
