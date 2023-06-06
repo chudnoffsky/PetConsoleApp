@@ -14,7 +14,8 @@ jobs:
         with:
           submodules: true
       - run: sudo apt-get update
-      - run: cmake --configure .
+      - run: sudo apt-get install libgtest-dev build-essential cmake -y
+      - run: cmake . -DPATCH_VERSION=${{ github.run_number }}
       - run: cmake --build .
       - run: cmake --build . --target package
       - name: Create Release
