@@ -1,0 +1,100 @@
+# Doxyfile 1.8.20
+\AUTHOR =  Владимир Чудновский
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+Чтобы указать путь к исходным файлам в Doxyfile, вы можете использовать параметр INPUT. В вашем случае, если файл Doxyfile находится в ./main/.doxyfile, а исходные файлы находятся в ./main/src/, вы можете добавить следующую строку в ваш файл Doxyfile:
+
+INPUT = ./src
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "PetConsoleApp"
+PROJECT_NUMBER         = "1"
+PROJECT_BRIEF          =
+PROJECT_LOGO           =
+OUTPUT_DIRECTORY       = ./docs/
+CREATE_SUBDIRS         = NO
+ALLOW_UNICODE_NAMES    = NO
+OUTPUT_LANGUAGE        = Russian
+BRIEF_MEMBER_DESC      = YES
+REPEAT_BRIEF           = YES
+ABBREVIATE_BRIEF       = "The $name class" \
+                         "The $name widget" \
+                         "The $name file" \
+                         is \
+                         provides \
+                         specifies \
+                         contains \
+                         represents \
+                         a \
+                         an \
+                         the
+ALWAYS_DETAILED_SEC    = NO
+INLINE_INHERITED_MEMB  = NO
+FULL_PATH_NAMES        = YES
+STRIP_FROM_PATH        =
+STRIP_FROM_INC_PATH    =
+SHORT_NAMES            = NO
+JAVADOC_AUTOBRIEF      = NO
+JAVADOC_BANNER         = NO
+QT_AUTOBRIEF           = NO
+MULTILINE_CPP_IS_BRIEF = NO
+PYTHON_DOCSTRING       = YES
+INHERIT_DOCS           = YES
+SEPARATE_MEMBER_PAGES  = NO
+TAB_SIZE               = 4
+ALIASES                =
+TCL_SUBST              =
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_FOR_FORTRAN   = NO
+OPTIMIZE_OUTPUT_VHDL   = NO
+OPTIMIZE_OUTPUT_SLICE  = NO
+EXTENSION_MAPPING      =
+MARKDOWN_SUPPORT       = YES
+FILE_PATTERNS          = *.c \
+                         *.cc \
+                         *.cxx \
+                         *.cpp \
+                         *.c++ \
+                         *.java \
+                         *.ii \
+                         *.ixx \
+                         *.ipp \
+                         *.i++ \
+                         *.inl \
+                         *.idl \
+                         *.ddl \
+                         *.odl \
+                         *.h \
+                         *.hh \
+                         *.hxx \
+                         *.hpp \
+                         *.h++ \
+                         *.cs \
+                         *.d \
+                         *.php \
+                         *.php4 \
+                         *.php5 \
+                         *.phtml \
+                         *.inc \
+                         *.m \
+                         *.markdown \
+                         *.md \
+                         *.mm \
+                         *.dox \
+                         *.doc \
+                         *.txt \
+                         *.py \
+                         *.pyw \
+                         *.f90 \
+                         *.f95 \
+                         *.f03 \
+                         *.f08 \
+                         *.f \
+                         *.for \
+                         *.tcl \
+                         *.vhd \
+                         *.vhdl \
+                         *.ucf \
+                         *.qsf \
+                         *.ice

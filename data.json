@@ -1,0 +1,120 @@
+[
+  {
+    "fullName": "Hakase Hitako",
+    "phone": "+7 123 456 7890",
+    "pets": [
+      {
+        "type": "Кошка",
+        "breed": "Сиамская",
+        "name": "Мурка",
+        "age": 3,
+        "weight": 4.5,
+        "height": 30,
+        "vaccinations": [
+          "Бешенство",
+          "Лейкоз"
+        ],
+        "illnesses": []
+      }
+    ]
+  },
+  {
+    "fullName": "Sakura Harino",
+    "phone": "+7 123 456 7890",
+    "pets": [
+      {
+        "type": "Кошка",
+        "breed": "Сиамская",
+        "name": "Мурка",
+        "age": 3,
+        "weight": 4.5,
+        "height": 30,
+        "vaccinations": [
+          "Бешенство",
+          "Лейкоз"
+        ],
+        "illnesses": []
+      }
+    ]
+  },
+  {
+    "fullName": "Ken Overlord",
+    "phone": "+7 123 456 7891",
+    "pets": []
+  },
+  {
+    "fullName": "Naruto Uzumaki",
+    "phone": "+7 987 654 3211",
+    "pets": []
+  },
+  {
+    "fullName": "Saske Uchiha",
+    "phone": "+7 123 456 7892",
+    "pets": []
+  },
+  {
+    "fullName": "Kiba Inudzuka",
+    "phone": "+7 987 654 3212",
+    "pets": []
+  },
+  {
+    "fullName": "Killer bi",
+    "phone": "+7 123 456 7893",
+    "pets": []
+  },
+  {
+    "fullName": "Maito Guy",
+    "phone": "+7 987 654 3213",
+    "pets": []
+  },
+  {
+    "fullName": "Anko Mitarassy",
+    "phone": "+7 123 456 7894",
+    "pets": []
+  },
+  {
+    "fullName": "Ibiki Marrino",
+    "phone": "+7 987 654 3214",
+    "pets": []
+  },
+  {
+    "fullName": "Ivan Ivanov",
+    "phone": "+7 123 456 7890",
+    "pets": [
+      {
+        "type": "Кошка",
+        "breed": "Сиамская",
+        "name": "Мурка",
+        "age": 3,
+        "weight": 4.5,
+        "height": 30,
+        "vaccinations": [
+          "Бешенство",
+          "Лейкоз"
+        ],
+        "illnesses": []
+      }
+    ]
+  },
+  {
+    "fullName": "Petr Ivanov",
+    "phone": "+7 987 654 3210",
+    "pets": [
+      {
+        "type": "Собака",
+        "breed": "Лабрадор",
+        "name": "Барбос",
+        "age": 5,
+        "weight": 30,
+        "height": 60,
+        "vaccinations": [
+          "Бешенство",
+          "Парвовирус"
+        ],
+        "illnesses": [
+          "Дисплазия"
+        ]
+      }
+    ]
+  }
+]
