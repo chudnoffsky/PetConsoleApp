@@ -1,7 +1,7 @@
 
 
 
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.22)
 
 
 set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
