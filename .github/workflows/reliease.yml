@@ -17,7 +17,6 @@ jobs:
       - run: sudo apt-get install libgtest-dev build-essential cmake -y
       - run: cmake . -DPATCH_VERSION=${{ github.run_number }}
       - run: cmake --build .
-      - run: cmake --build . --target package
       - name: Set file name
         id: run_ls
         run: echo ::set-output name=FILE_NAME::$(ls | grep *.deb)
