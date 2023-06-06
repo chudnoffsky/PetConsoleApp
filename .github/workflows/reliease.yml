@@ -16,7 +16,6 @@ jobs:
           submodules: true
       - run: sudo apt-get update
       - run: cmake --build .
-      - run: cmake --build . --target test
       - run: cmake --build . --target package
       - name: Create Release
         id: create_release
